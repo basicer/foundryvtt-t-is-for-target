@@ -4,15 +4,16 @@
   "description": "Target things by hovering and pressing the T key.",
   "version": "0.0.1",
   "minimumCoreVersion": "0.6.2",
-  "compatibleCoreVersion": "0.7.2",
+  "compatibleCoreVersion": "0.7.9",
   "author": "Rob Blanckaert <foundry@basicer.com>",
   "dependencies": [
 
   ],
   "esmodules": [
+    "/scripts/index.js",
+    "/scripts/lib-df-hotkeys.shim.js"
   ],
   "scripts": [
-    "/scripts/index.js"
   ],
   "styles": [
   ],
